@@ -1,7 +1,12 @@
 import pygame
 import random
 
-if __name__ == '__main__':
+'''
+FirstPygame project/lab, a swuare chasing game
+__author__ = "Leah Yang"
+01/15/2026
+'''
+def main():
     #Initialize pygame
     pygame.init()
 
@@ -75,10 +80,9 @@ if __name__ == '__main__':
         screen.fill(BLACK)
         screen.blit(text_surface, text_rect)
         pygame.display.flip()
-
-
     pygame.quit()
 
-
+if __name__ == '__main__':
+    main()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
